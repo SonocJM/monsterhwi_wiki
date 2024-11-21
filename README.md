@@ -26,5 +26,3 @@ En esta wiki encontrarás todo lo que necesitas para mejorar tus habilidades y d
 ---
 
 ## Imágenes o arte destacado
-
-Galería rotativa con paisajes del juego, monstruos icónicos y momentos de caza épicos.
