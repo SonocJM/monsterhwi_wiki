@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diablos</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <style>
+    /* Estilo general */
+    body {
+        background-color: #121212; /* Fondo oscuro */
+        color: #ffffff; /* Texto blanco */
+        font-family: 'Garamond', serif; /* Fuente con estilo medieval */
+    }
+
+    /* Resaltar texto */
+    .highlight {
+        background-color: #d1a552; /* Dorado como resalto */
+        font-weight: bold;
+    }
+
+    /* Caja de búsqueda */
+    .search-box {
+        margin-bottom: 20px;
+    }
+
+    .search-box input {
+        width: 100%;
+        padding: 10px;
+        font-size: 1rem;
+        border-radius: 5px;
+        border: 1px solid #d1a552; /* Bordes dorados */
+        background-color: #4b2f1b; /* Marrón oscuro */
+        color: #f5e4c3; /* Beige claro para texto */
+    }
+
+    .search-box input::placeholder {
+        color: #f5e4c3; /* Color de texto para el placeholder */
+    }
+
+    /* Contenedor principal */
+    .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 20px;
+        background-color: rgba(36, 24, 15, 0.9); /* Marrón oscuro translúcido */
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7); /* Sombra para dar profundidad */
+    }
+
+    .content .text {
+        flex: 1;
+        text-align: left;
+    }
+
+    .content .image {
+        flex-shrink: 0;
+        margin-left: 20px;
+    }
+
+    .content .image img {
+        max-width: 300px;
+        height: auto;
+        border-radius: 5px; /* Bordes redondeados a la imagen */
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Sombra sutil en la imagen */
+    }
+
+    /* Footer */
+    footer {
+        margin-top: 20px;
+        text-align: center;
+        padding: 10px;
+        background-color: #4b2f1b; /* Marrón oscuro */
+        color: #f5e4c3; /* Beige claro */
+        border-top: 3px solid #d1a552; /* Bordes dorados */
+    }
+
+    /* Enlaces */
+    a {
+        color: #d1a552; /* Dorado para los enlaces */
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: #ff6600; /* Rojo anaranjado al pasar el ratón */
+    }
+
+    /* Títulos destacados */
+    .display-4 {
+        color: #d1a552; /* Dorado */
+        text-shadow: 2px 2px 4px #000; /* Sombra para dar profundidad */
+    }
+
+    .lead {
+        color: #c7b299; /* Marrón claro */
+    }
+</style>
+    <!-- Iconos (opcional) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-dark text-light">
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="/">Monster Hunter Wiki</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/monsters">Monstruos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/gear">Equipo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">Acerca de</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main class="container py-5">
+        <header class="text-center mb-5">
+            <h1 class="display-4 fw-bold">Diablos</h1>
+            <p class="lead">Explora el vasto mundo de Monster Hunter</p>
+        </header>
+        <div>
+            <h1>Diablos</h1>
+<h3>Descripción</h3>
+<p>El <strong>Diablos</strong> es uno de los <em>Wyvern Terrestres</em> más temidos y peligrosos del Nuevo Mundo. Con su enorme tamaño, su cuerno de gran alcance y su agresividad feroz, este monstruo es una fuerza imparable en las zonas áridas y desérticas. Su apariencia robusta y su comportamiento territorial lo convierten en un enemigo formidable para los cazadores. El Diablos es conocido por su habilidad para excavar bajo tierra y atacar desde las sombras, lo que lo hace aún más difícil de predecir.</p>
+<p>Este monstruo posee una gran fuerza física y una resistencia excepcional, lo que lo convierte en un desafío para incluso los cazadores más experimentados. Su cuerno afilado y su capacidad para embestir a gran velocidad son algunas de las amenazas más mortales que representa.</p>
+<h3>Características</h3>
+<ul>
+<li><strong>Clase:</strong> Wyvern Terrestre</li>
+<li><strong>Hábitat:</strong> Desierto, Áridos</li>
+<li><strong>Comportamiento:</strong> Muy territorial, el Diablos ataca sin dudar a cualquier intruso que se cruce en su camino. Sus embestidas y ataques bajo tierra son devastadores.</li>
+<li><strong>Peculiaridades:</strong> Es capaz de excavar bajo tierra para sorprender a sus enemigos, emergiendo repentinamente con gran velocidad. Sus cuernos son uno de sus mayores activos en combate.</li>
+</ul>
+<h3>Debilidades</h3>
+<ul>
+<li><strong>Elemento más efectivo:</strong> Agua</li>
+<li><strong>Partes rompibles:</strong> Cuerno, cabeza, cola</li>
+<li><strong>Estado alterado recomendado:</strong> Aturdimiento, Explosión</li>
+</ul>
+<h3>Estrategia de Caza</h3>
+<ul>
+<li>El Diablos es especialmente vulnerable en su cabeza y en sus cuernos, por lo que atacar estas zonas puede ser clave para neutralizar su ofensiva.</li>
+<li>Usa armas con impacto o corte para romper sus cuernos y dificultar su capacidad de embestir.</li>
+<li>Presta atención a su comportamiento de excavar, ya que es una de sus técnicas más peligrosas. Mantente alerta y busca los momentos en que el Diablos emerja para atacar.</li>
+<li>Su cola también es una zona vulnerable, y romperla puede reducir su movilidad y sus ataques.</li>
+<li>Lleva objetos que contrarresten su daño físico y asegúrate de tener suficiente movilidad para esquivar sus ataques subterráneos.</li>
+</ul>
+<h3>Recompensas del Diablos</h3>
+<h4><strong>Rango Bajo</strong></h4>
+<table>
+<thead>
+<tr>
+<th>Recompensa</th>
+<th>Probabilidad (Cacería)</th>
+<th>Probabilidad (Captura)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Escama de Diablos</td>
+<td>40%</td>
+<td>35%</td>
+</tr>
+<tr>
+<td>Piel de Diablos</td>
+<td>30%</td>
+<td>30%</td>
+</tr>
+<tr>
+<td>Cuerno de Diablos <em>(raro)</em></td>
+<td>20%</td>
+<td>25%</td>
+</tr>
+<tr>
+<td>Cola de Diablos <em>(común)</em></td>
+<td>10%</td>
+<td>10%</td>
+</tr>
+</tbody>
+</table>
+<h4><strong>Rango Alto</strong></h4>
+<table>
+<thead>
+<tr>
+<th>Recompensa</th>
+<th>Probabilidad (Cacería)</th>
+<th>Probabilidad (Captura)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Escama Reluciente de Diablos</td>
+<td>35%</td>
+<td>30%</td>
+</tr>
+<tr>
+<td>Piel Lustrosa de Diablos</td>
+<td>30%</td>
+<td>30%</td>
+</tr>
+<tr>
+<td>Cuerno Mejorado de Diablos <em>(raro)</em></td>
+<td>20%</td>
+<td>25%</td>
+</tr>
+<tr>
+<td>Gema de Wyvern Terrestre <em>(rara)</em></td>
+<td>10%</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>Cola de Diablos Mejorada <em>(rara)</em></td>
+<td>5%</td>
+<td>5%</td>
+</tr>
+</tbody>
+</table>
+<h4><strong>Rango Maestro</strong> (<em>Iceborne</em>)</h4>
+<table>
+<thead>
+<tr>
+<th>Recompensa</th>
+<th>Probabilidad (Cacería)</th>
+<th>Probabilidad (Captura)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Escama Maestra de Diablos</td>
+<td>35%</td>
+<td>30%</td>
+</tr>
+<tr>
+<td>Piel Maestra de Diablos</td>
+<td>25%</td>
+<td>25%</td>
+</tr>
+<tr>
+<td>Cuerno Supremo de Diablos <em>(raro)</em></td>
+<td>20%</td>
+<td>25%</td>
+</tr>
+<tr>
+<td>Gema Celestial <em>(muy rara)</em></td>
+<td>5%</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>Cola de Diablos Mejorada <em>(muy rara)</em></td>
+<td>10%</td>
+<td>10%</td>
+</tr>
+</tbody>
+</table>
+<h3>Datos Curiosos</h3>
+<ul>
+<li>El <strong>Diablos</strong> es conocido por su enorme poder de embestida, siendo capaz de atravesar grandes distancias en cuestión de segundos.</li>
+<li>Su capacidad de excavar bajo tierra y sorprender a sus enemigos hace que sea uno de los monstruos más temidos en el desierto.</li>
+<li>A menudo se le encuentra luchando contra otros monstruos de su territorio, ya que es muy protector de su dominio.</li>
+<li>En <em>Iceborne</em>, el Diablos recibe nuevas capacidades y ataques, aumentando su poder y volviendo aún más impredecible en combate.</li>
+</ul>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-secondary text-light py-4">
+        <div class="container text-center">
+            <p class="mb-1">&copy; 2024 Proyecto Final</p>
+            <p class="small">
+                Diseñado con <i class="fas fa-heart text-danger"></i> para los cazadores.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teostra</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Estilos personalizados -->
+    <style>
+    /* Estilo general */
+    body {
+        background-color: #121212; /* Fondo oscuro */
+        color: #ffffff; /* Texto blanco */
+        font-family: 'Garamond', serif; /* Fuente con estilo medieval */
+    }
+
+    /* Resaltar texto */
+    .highlight {
+        background-color: #d1a552; /* Dorado como resalto */
+        font-weight: bold;
+    }
+
+    /* Caja de búsqueda */
+    .search-box {
+        margin-bottom: 20px;
+    }
+
+    .search-box input {
+        width: 100%;
+        padding: 10px;
+        font-size: 1rem;
+        border-radius: 5px;
+        border: 1px solid #d1a552; /* Bordes dorados */
+        background-color: #4b2f1b; /* Marrón oscuro */
+        color: #f5e4c3; /* Beige claro para texto */
+    }
+
+    .search-box input::placeholder {
+        color: #f5e4c3; /* Color de texto para el placeholder */
+    }
+
+    /* Contenedor principal */
+    .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 20px;
+        background-color: rgba(36, 24, 15, 0.9); /* Marrón oscuro translúcido */
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7); /* Sombra para dar profundidad */
+    }
+
+    .content .text {
+        flex: 1;
+        text-align: left;
+    }
+
+    .content .image {
+        flex-shrink: 0;
+        margin-left: 20px;
+    }
+
+    .content .image img {
+        max-width: 300px;
+        height: auto;
+        border-radius: 5px; /* Bordes redondeados a la imagen */
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* Sombra sutil en la imagen */
+    }
+
+    /* Footer */
+    footer {
+        margin-top: 20px;
+        text-align: center;
+        padding: 10px;
+        background-color: #4b2f1b; /* Marrón oscuro */
+        color: #f5e4c3; /* Beige claro */
+        border-top: 3px solid #d1a552; /* Bordes dorados */
+    }
+
+    /* Enlaces */
+    a {
+        color: #d1a552; /* Dorado para los enlaces */
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        color: #ff6600; /* Rojo anaranjado al pasar el ratón */
+    }
+
+    /* Títulos destacados */
+    .display-4 {
+        color: #d1a552; /* Dorado */
+        text-shadow: 2px 2px 4px #000; /* Sombra para dar profundidad */
+    }
+
+    .lead {
+        color: #c7b299; /* Marrón claro */
+    }
+</style>
+    <!-- Iconos (opcional) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body class="bg-dark text-light">
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="/">Monster Hunter Wiki</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/monsters">Monstruos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/gear">Equipo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/about">Acerca de</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main class="container py-5">
+        <header class="text-center mb-5">
+            <h1 class="display-4 fw-bold">Teostra</h1>
+            <p class="lead">Explora el vasto mundo de Monster Hunter</p>
+        </header>
+        <div>
+            <h2>Teostra</h2>
+<h3>Descripción</h3>
+<p>El <strong>Teostra</strong>, conocido como &quot;El Emperador de las Llamas&quot;, es un <strong>Dragón Anciano</strong> que encarna el poder del fuego. Este majestuoso pero peligroso monstruo es capaz de desatar <strong>tormentas de llamas</strong> y <strong>explosiones devastadoras</strong> a su alrededor, convirtiendo su entorno en un infierno. Su apariencia imponente, con una melena que recuerda a un león y su afinidad con el fuego, lo convierten en una de las criaturas más intimidantes del Nuevo Mundo.</p>
+<p>El <strong>Teostra</strong> es tan elegante como letal, y cazarlo requiere no solo fuerza, sino también ingenio y preparación contra sus ataques ígneos.</p>
+<h3>Características</h3>
+<ul>
+<li><strong>Clase</strong>: Dragón Anciano</li>
+<li><strong>Hábitat</strong>: Desierto de Aguijón, Bosques Primigenios, Roca Perenne</li>
+<li><strong>Comportamiento</strong>: Altamente territorial y agresivo, especialmente si percibe alguna amenaza hacia su reinado.</li>
+<li><strong>Peculiaridades</strong>: Puede rodearse de un <strong>aura inflamable</strong> que detona en explosiones masivas cuando se siente acorralado.</li>
+</ul>
+<h3>Debilidades</h3>
+<ul>
+<li><strong>Elemento más efectivo</strong>: Agua, Hielo</li>
+<li><strong>Partes rompibles</strong>: Cabeza, Alas, Cola</li>
+<li><strong>Estado alterado recomendado</strong>: Aturdimiento, Agua Fresca (para contrarrestar su fuego)</li>
+</ul>
+<h3>Estrategia de Caza</h3>
+<ul>
+<li>Lleva mantos y herramientas que reduzcan el daño por fuego, como el <strong>Manto Ignífugo</strong> o resistencias elementales.</li>
+<li>Ataca su <strong>cabeza</strong> y <strong>alas</strong> para disminuir su capacidad de generar explosiones.</li>
+<li>Evita permanecer en <strong>áreas cercanas</strong> cuando empiece a cargar su <strong>explosión final</strong>; usa el terreno para cubrirte.</li>
+<li>Mantente abastecido con <strong>Baños Curativos</strong> y <strong>Nullberries</strong> para mitigar estados alterados como &quot;quemadura&quot;.</li>
+</ul>
+<h3>Recompensas de Teostra</h3>
+<h4><strong>Rango Alto</strong></h4>
+<table>
+<thead>
+<tr>
+<th>Recompensa</th>
+<th>Probabilidad (Cacería)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Escama Ígnea de Teostra</td>
+<td>35%</td>
+</tr>
+<tr>
+<td>Piel Flamígera de Teostra</td>
+<td>30%</td>
+</tr>
+<tr>
+<td>Ala de Teostra <em>(raro)</em></td>
+<td>20%</td>
+</tr>
+<tr>
+<td>Cola de Teostra <em>(raro)</em></td>
+<td>10%</td>
+</tr>
+<tr>
+<td>Gema de Teostra <em>(muy rara)</em></td>
+<td>5%</td>
+</tr>
+</tbody>
+</table>
+<h4><strong>Rango Maestro (Iceborne)</strong></h4>
+<table>
+<thead>
+<tr>
+<th>Recompensa</th>
+<th>Probabilidad (Cacería)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Escama Ígnea Maestra de Teostra</td>
+<td>35%</td>
+</tr>
+<tr>
+<td>Piel Infernal de Teostra</td>
+<td>25%</td>
+</tr>
+<tr>
+<td>Ala Flamígera Suprema de Teostra <em>(raro)</em></td>
+<td>20%</td>
+</tr>
+<tr>
+<td>Gema Celestial de Teostra <em>(muy rara)</em></td>
+<td>5%</td>
+</tr>
+<tr>
+<td>Cola Infernal de Teostra <em>(muy rara)</em></td>
+<td>15%</td>
+</tr>
+</tbody>
+</table>
+<h3>Datos Curiosos</h3>
+<ul>
+<li>El <strong>Teostra</strong> es conocido por ser una de las criaturas más <strong>elegantes</strong> del Nuevo Mundo, con su melena flameante que se asemeja a la de un león.</li>
+<li>Tiene una relación simbiótica con el <strong>Lunastra</strong>, su contraparte femenina, y juntos son aún más peligrosos cuando cazan en pareja.</li>
+<li>Su habilidad de crear <strong>explosiones masivas</strong> es conocida como &quot;<strong>Supernova</strong>&quot;, un ataque devastador que puede cambiar el curso de cualquier cacería.</li>
+<li>A pesar de su afinidad con el fuego, el <strong>Teostra</strong> evita lugares con altas concentraciones de agua, lo que limita sus territorios.</li>
+</ul>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-secondary text-light py-4">
+        <div class="container text-center">
+            <p class="mb-1">&copy; 2024 Proyecto Final</p>
+            <p class="small">
+                Diseñado con <i class="fas fa-heart text-danger"></i> para los cazadores.
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
